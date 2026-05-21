@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['bus', 'car', 'motorcycle', 'truck']
+
+roboflow:
+  workspace: pyeondohyeons-workspace
+  project: cctv-traffic-detection-ru3ir
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/pyeondohyeons-workspace/cctv-traffic-detection-ru3ir/1

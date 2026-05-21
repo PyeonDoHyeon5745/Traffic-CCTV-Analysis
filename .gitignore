@@ -1,0 +1,33 @@
+# 데이터셋 (유출 방지)
+train/
+valid/
+test/
+
+# 영상 파일
+*.mp4
+*.avi
+*.mov
+
+# 모델 가중치
+*.pt
+*.pth
+*.onnx
+
+# 가상환경
+.venv/
+venv/
+env/
+
+# Python 캐시
+__pycache__/
+*.pyc
+*.pyo
+
+# YOLO 학습 실행 로그 (runs/ 아래 결과 이미지는 포함)
+runs/detect/train*/
+runs/detect/predict*/
+
+# 기타
+*.egg-info/
+.DS_Store
+desktop.ini
